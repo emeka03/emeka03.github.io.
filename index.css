@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+   .container-fluid{
+    /* position: fixed; */
+    z-index: 2;
+    /* width: 100%; */
+    background-color: white;
+    padding: 20px 30px;
+} 
+
+ 
+
+  .dropdown a{
+    color: blue;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+
+.container li{
+    float: left;
+    list-style: none;
+
+}
+.navbar3{
+    float: right;
+}
+
+
+ .container a{
+    padding: 20px ;
+    text-decoration: none;
+    color: black;
+}
+.blue a{
+    color: blue;
+}
+.container a:hover{
+    color: #0000ff99;
+}
+.navbar2 span{
+color: #171111;
+} 
+img{
+    width: 100%;
+}
+.sec1{
+    position: relative;
+}
+.con{
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+.sec1 div p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.sec1 div h1{
+    position: relative;
+    animation-name: freedom;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes freedom {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+
+.btn{
+    position: relative;
+    padding: 10px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: blue;
+    border: none;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.sec2 > div{
+    border: 0.1px solid;
+    width: 32%;
+    position: relative;
+
+}
+.secitem div{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.thirdnav li a{
+    padding: 10px;
+    border: 0.5px solid;
+    margin: 8px 0px;
+    
+}
+.thirdnav{
+    float: right;
+    
+}
+
+ li{
+    display: inline;
+}
+.navbar4 li{
+    display: inline;
+    margin-right: 20px;
+}
+    
+.thirdnav a:hover{
+    background-color: hsl(240, 100%, 50%);
+}
+.pa{
+    text-decoration: underline;
+    color: black;
+}
+.navbar5 a:hover{
+    text-decoration: underline;
+    
+}
+.navbar5 a{
+    color: #00000099;
+}
+.secondimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.secondimg div{
+    width: 24%;
+}
+.bt{
+    text-align: center;
+    padding:100px;
+}
+.bt button{
+    background-color: #80808099;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+}
+.bt a{
+    color: black;
+    background-color:gainsboro;
+    padding: 15px 40px;
+    border-radius: 20px;
+
+    
+}
+.bt a:hover{
+    background-color: black;
+    color: white;
+    
+}
+.bt button a:hover{
+    color: white;
+}
+.free{
+    padding: 0 40px;
+}
+.foter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #171111;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+.foter div a{
+    background-color: #4169e199;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+.foter div a:hover{
+    background-color: white;
+    color: royalblue;
+}
+.foter div p{
+    line-height: 20px;
+}
+.foter div h3{
+    color: white;
+}
+.foter div p{
+    color: #ffffff99;
+    padding-top: 15px;
+}
+.last img{
+    width: 30px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: #171111;
+    
+}
+span{
+    color: #ffffff99;
+    width: 100%;
+}
+.last2{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+h6{
+    color: #ffffff99;
+}
+.last2 a{
+    color: #4169e199;
+}
+.last2{
+    background-color: #171111;
+}
+ .navbar5 li a{
+    display:inline-block;
+    display: none;
+    
+}
+.navbar3 .icon {
+    display: none;
+  }
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .sec2 > div{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .thirdnav{
+        float: none;
+        padding: 40px 0px; 
+    }
+    .free{
+        padding: 0 15px;
+    }
+    .secondimg div{
+        width: 100%;
+    }
+.foter div{
+    width:100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.container{
+   padding: 2px; 
+}
+ .navbar2 li a{
+     display: none;
+
+  }
+   .navbar3{
+    display: none;
+  }
+   /* .navbar5 a {display: none;}
+  .navbar5 a.icon { */
+
+    /* display:  block; */
+     
+  }
+  .container {
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;
+} 
+
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .sec2 > div{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .thirdnav{
+        float: none;
+        padding: 40px 0px; 
+    }
+    .free{
+        padding: 0 15px;
+    }
+    .secondimg div{
+        width: 48%;
+    }
+.foter div{
+    width:48%;
+    padding: 20px 30px;
+}
+  }
+
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .sec2  div{
+        width:48%
+    
+    }
+  }
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+     .sec2 > div{
+        width: 32%;
+        margin-top: 20px;
+        
+    }
+    .thirdnav{
+        padding: 0px 0px; 
+        float: right;
+    }
+    .free{
+        padding: 0 15px;
+    }
+    .secondimg div{
+        width: 24%;
+    }
+.foter div{
+    width:24%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+    
+  }
+  .logo img{
+    width: 10px;
+
+  }
